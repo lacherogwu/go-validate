@@ -8,7 +8,7 @@ package main
 type User struct {
 	Name  string `validate:"required,min=2,max=32"`
 	Email string `validate:"required,email"`
-    Age  int    `validate:"min=18"`
+    Age   int    `validate:"min=18"`
 }
 
 func main(){
